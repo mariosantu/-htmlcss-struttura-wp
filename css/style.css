@@ -54,7 +54,7 @@
 /*Main Start*/
 main{
     background-color: deepskyblue;
-    height: 725px;
+    
 }
 
 .main_leaderboard {
@@ -69,6 +69,7 @@ main{
     float: left;
     background-color: lightblue;
     height: 600px;
+    margin-bottom: 10px;
 }
 
 .left_col, .right_col {
