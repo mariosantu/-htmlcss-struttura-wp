@@ -9,6 +9,15 @@
 
 /*RESET*/
 
+/*COMMON*/
+
+.clearfix::after {
+    content: "" ;
+    display: table;
+    clear: both;
+}
+
+/*COMMON*/
 
 /*Wrapper start*/
 
@@ -46,12 +55,6 @@
 main{
     background-color: deepskyblue;
     height: 725px;
-}
-
-main::after {
-    content: "" ;
-    display: table;
-    clear: both;
 }
 
 .main_leaderboard {
